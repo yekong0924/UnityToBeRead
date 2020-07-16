@@ -58,7 +58,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.25.sec10</version>
         </dependency>
      <!--
      //回调webservice接口生产客户端报错，固不提供webservice回调，只提供rest请求方式
