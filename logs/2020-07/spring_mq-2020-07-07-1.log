@@ -1,0 +1,572 @@
+2020-07-07 11:41:40.792 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadReceiveApplication on LAPTOP-R2J4TBE9 with PID 2776 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_receive\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 11:41:40.803 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 11:41:40.891 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 11:41:40.892 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 11:41:42.604 [Thread:restartedMain] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorPageCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.class]: Unsatisfied dependency expressed through method 'errorPageCustomizer' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-07-07 11:41:42.620 [Thread:restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-07 11:41:42.931 [Thread:restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+2020-07-07 11:50:32.349 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadReceiveApplication on LAPTOP-R2J4TBE9 with PID 7984 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_receive\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 11:50:32.363 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 11:50:32.465 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 11:50:32.465 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 11:50:34.391 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6868 (http)
+2020-07-07 11:50:34.421 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6868"]
+2020-07-07 11:50:34.422 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 11:50:34.423 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 11:50:34.712 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 11:50:34.712 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2246 ms
+2020-07-07 11:50:36.387 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 11:50:36.842 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 11:50:36.964 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6868"]
+2020-07-07 11:50:37.000 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6868 (http) with context path ''
+2020-07-07 11:50:37.016 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadReceiveApplication in 5.209 seconds (JVM running for 8.633)
+2020-07-07 14:13:11.793 [Thread:http-nio-6868-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 14:13:11.795 [Thread:http-nio-6868-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2020-07-07 14:13:11.822 [Thread:http-nio-6868-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 27 ms
+2020-07-07 14:22:15.400 [Thread:Thread-165] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 14:22:15.756 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadReceiveApplication on LAPTOP-R2J4TBE9 with PID 7984 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_receive\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 14:22:15.758 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 14:22:16.770 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6868 (http)
+2020-07-07 14:22:16.771 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6868"]
+2020-07-07 14:22:16.772 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 14:22:16.773 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 14:22:16.961 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 14:22:16.962 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1195 ms
+2020-07-07 14:22:17.201 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 14:22:17.363 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 14:22:17.400 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6868"]
+2020-07-07 14:22:17.406 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6868 (http) with context path ''
+2020-07-07 14:22:17.414 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadReceiveApplication in 1.798 seconds (JVM running for 9112.306)
+2020-07-07 14:22:17.417 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+2020-07-07 14:22:17.720 [Thread:http-nio-6868-exec-3] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 14:22:17.720 [Thread:http-nio-6868-exec-3] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2020-07-07 14:22:17.723 [Thread:http-nio-6868-exec-3] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 3 ms
+2020-07-07 14:29:36.904 [Thread:http-nio-6868-exec-8] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.Map<java.lang.String, java.lang.String> com.weavernorth.datadeal.toread.receive.controller.ReceiveMsgController.receiveTodoRequest(java.util.Map<java.lang.String, java.lang.String>)]
+2020-07-07 14:30:13.541 [Thread:http-nio-6868-exec-2] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------604861112100240343250683;charset=UTF-8' not supported]
+2020-07-07 14:30:59.766 [Thread:http-nio-6868-exec-1] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------010084373110706083379417;charset=UTF-8' not supported]
+2020-07-07 14:36:00.270 [Thread:http-nio-6868-exec-5] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2020-07-07 14:39:38.837 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadReceiveApplication on LAPTOP-R2J4TBE9 with PID 22384 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_receive\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 14:39:38.859 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 14:39:38.948 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 14:39:38.949 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 14:39:41.425 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6868 (http)
+2020-07-07 14:39:41.465 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6868"]
+2020-07-07 14:39:41.466 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 14:39:41.466 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 14:39:41.771 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 14:39:41.771 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2822 ms
+2020-07-07 14:39:43.492 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 14:39:43.905 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 14:39:44.046 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6868"]
+2020-07-07 14:39:44.097 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6868 (http) with context path ''
+2020-07-07 14:39:44.116 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadReceiveApplication in 6.02 seconds (JVM running for 10.301)
+2020-07-07 14:41:44.465 [Thread:http-nio-6868-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 14:41:44.466 [Thread:http-nio-6868-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2020-07-07 14:41:44.483 [Thread:http-nio-6868-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 17 ms
+2020-07-07 14:42:02.496 [Thread:http-nio-6868-exec-1] INFO  org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectHostPort(AbstractConnectionFactory.java:566) - Attempting to connect to: 127.0.0.1:5672
+2020-07-07 14:42:02.605 [Thread:http-nio-6868-exec-1] INFO  org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:511) - Created new connection: connectionFactory#6fc1dd5c:0/SimpleConnection@1d438f1d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57945]
+2020-07-07 14:42:02.756 [Thread:http-nio-6868-exec-1] INFO  com.weavernorth.datadeal.toread.receive.webservice.impl.ReceiveMsgServiceImpl.receiveToReadRequestByMap(ReceiveMsgServiceImpl.java:78) - 待办消息Map发送成功！receiveToReadRequestByMap(第1步，调用WebService接口，将数据放入MQ。ID:0333f5da-0f30-4d51-a44a-4f791576c6bd)耗时：275 ms
+2020-07-07 14:42:04.247 [Thread:SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 14:42:19.939 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadReceiveApplication on LAPTOP-R2J4TBE9 with PID 12900 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_receive\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 14:42:19.962 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 14:42:20.062 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 14:42:20.063 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 14:42:22.773 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6868 (http)
+2020-07-07 14:42:22.819 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6868"]
+2020-07-07 14:42:22.820 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 14:42:22.821 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 14:42:23.134 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 14:42:23.135 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 3072 ms
+2020-07-07 14:42:24.953 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 14:42:25.416 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 14:42:25.562 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6868"]
+2020-07-07 14:42:25.611 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6868 (http) with context path ''
+2020-07-07 14:42:25.630 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadReceiveApplication in 6.581 seconds (JVM running for 10.941)
+2020-07-07 14:42:37.847 [Thread:http-nio-6868-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 14:42:37.848 [Thread:http-nio-6868-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2020-07-07 14:42:37.860 [Thread:http-nio-6868-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 11 ms
+2020-07-07 14:43:47.914 [Thread:http-nio-6868-exec-1] INFO  org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectHostPort(AbstractConnectionFactory.java:566) - Attempting to connect to: 127.0.0.1:5672
+2020-07-07 14:43:48.315 [Thread:http-nio-6868-exec-1] INFO  org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:511) - Created new connection: connectionFactory#3eea8074:0/SimpleConnection@626a2790 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58071]
+2020-07-07 14:44:00.039 [Thread:http-nio-6868-exec-1] INFO  com.weavernorth.datadeal.toread.receive.webservice.impl.ReceiveMsgServiceImpl.receiveToReadRequestByMap(ReceiveMsgServiceImpl.java:78) - 待办消息Map发送成功！receiveToReadRequestByMap(第1步，调用WebService接口，将数据放入MQ。ID:4d742ec1-fdbf-43ad-8434-285da2e54f9b)耗时：55526 ms
+2020-07-07 14:45:04.660 [Thread:http-nio-6868-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver.doResolveException(DefaultHandlerExceptionResolver.java:235) - Failure while trying to resolve exception [org.springframework.http.converter.HttpMessageNotReadableException]
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleHttpMessageNotReadable(DefaultHandlerExceptionResolver.java:419) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver.doResolveException(DefaultHandlerExceptionResolver.java:206) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_60]
+2020-07-07 14:45:04.687 [Thread:http-nio-6868-exec-1] ERROR org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is java.io.IOException: Stream closed] with root cause
+java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:347) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:84) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.io.FilterInputStream.read(FilterInputStream.java:83) ~[?:1.8.0_60]
+	at java.io.PushbackInputStream.read(PushbackInputStream.java:139) ~[?:1.8.0_60]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:325) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:194) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:158) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:131) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_60]
+2020-07-07 14:45:07.384 [Thread:SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 14:45:28.338 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadReceiveApplication on LAPTOP-R2J4TBE9 with PID 20700 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_receive\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 14:45:28.368 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 14:45:28.594 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 14:45:28.596 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 14:45:32.801 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6868 (http)
+2020-07-07 14:45:32.961 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6868"]
+2020-07-07 14:45:32.963 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 14:45:32.964 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 14:45:33.526 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 14:45:33.527 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 4929 ms
+2020-07-07 14:45:36.517 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 14:45:37.346 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 14:45:37.574 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6868"]
+2020-07-07 14:45:37.646 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6868 (http) with context path ''
+2020-07-07 14:45:37.671 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadReceiveApplication in 10.398 seconds (JVM running for 17.506)
+2020-07-07 14:46:37.809 [Thread:http-nio-6868-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 14:46:37.809 [Thread:http-nio-6868-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2020-07-07 14:46:37.855 [Thread:http-nio-6868-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 44 ms
+2020-07-07 14:46:38.024 [Thread:http-nio-6868-exec-1] INFO  org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectHostPort(AbstractConnectionFactory.java:566) - Attempting to connect to: 127.0.0.1:5672
+2020-07-07 14:46:38.118 [Thread:http-nio-6868-exec-1] INFO  org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:511) - Created new connection: connectionFactory#448383fb:0/SimpleConnection@389ae762 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58234]
+2020-07-07 14:46:38.248 [Thread:http-nio-6868-exec-1] INFO  com.weavernorth.datadeal.toread.receive.webservice.impl.ReceiveMsgServiceImpl.receiveToReadRequestByMap(ReceiveMsgServiceImpl.java:79) - 待办消息Map发送成功！receiveToReadRequestByMap(第1步，调用WebService接口，将数据放入MQ。ID:ea695b29-db09-466f-b90e-60e4ca103085)耗时：239 ms
+2020-07-07 14:49:21.586 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 4980 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 14:49:21.597 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 14:49:21.691 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 14:49:21.691 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 14:49:22.658 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 14:49:22.703 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 39ms. Found 0 MongoDB repository interfaces.
+2020-07-07 14:49:23.551 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 14:49:23.563 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 14:49:23.563 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 14:49:23.563 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 14:49:23.791 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 14:49:23.791 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2099 ms
+2020-07-07 14:49:23.897 [Thread:restartedMain] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'URConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oa.webservice.url' in value "${oa.webservice.url}"
+2020-07-07 14:49:23.902 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-07-07 14:49:23.916 [Thread:restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-07 14:49:23.929 [Thread:restartedMain] ERROR org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:837) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'URConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oa.webservice.url' in value "${oa.webservice.url}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.weavernorth.datadeal.toread.manage.DatadealToreadManageApplication.main(DatadealToreadManageApplication.java:10) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oa.webservice.url' in value "${oa.webservice.url}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:912) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1245) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:715) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 23 more
+2020-07-07 15:05:50.910 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 5732 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 15:05:50.926 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 15:05:51.050 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 15:05:51.051 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 15:05:52.507 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 15:05:52.568 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 52ms. Found 0 MongoDB repository interfaces.
+2020-07-07 15:05:53.674 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 15:05:53.693 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 15:05:53.694 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 15:05:53.694 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 15:05:54.039 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 15:05:54.040 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2989 ms
+2020-07-07 15:05:54.272 [Thread:restartedMain] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-07 15:05:54.366 [Thread:cluster-ClusterId{value='5f041ed2720faf12e1949996', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Opened connection [connectionId{localValue:1, serverValue:5}] to 127.0.0.1:27017
+2020-07-07 15:05:54.374 [Thread:cluster-ClusterId{value='5f041ed2720faf12e1949996', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5649100}
+2020-07-07 15:05:54.896 [Thread:restartedMain] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'task': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-07-07 15:05:54.906 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-07-07 15:05:54.929 [Thread:restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-07 15:05:55.261 [Thread:restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field restTemplate in com.weavernorth.datadeal.toread.manage.task.Task required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2020-07-07 17:05:45.743 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadReceiveApplication on LAPTOP-R2J4TBE9 with PID 11840 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_receive\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 17:05:45.767 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 17:05:46.020 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 17:05:46.021 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 17:05:49.372 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6868 (http)
+2020-07-07 17:05:49.419 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6868"]
+2020-07-07 17:05:49.420 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 17:05:49.421 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 17:05:49.885 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 17:05:49.886 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 3864 ms
+2020-07-07 17:05:52.198 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 17:05:52.785 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 17:05:52.950 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6868"]
+2020-07-07 17:05:53.005 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6868 (http) with context path ''
+2020-07-07 17:05:53.030 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadReceiveApplication in 8.089 seconds (JVM running for 12.87)
+2020-07-07 17:06:33.087 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 15204 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 17:06:33.095 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 17:06:33.160 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 17:06:33.161 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 17:06:33.912 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 17:06:33.949 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 31ms. Found 0 MongoDB repository interfaces.
+2020-07-07 17:06:34.560 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 17:06:34.571 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:06:34.571 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 17:06:34.572 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 17:06:34.761 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 17:06:34.761 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1600 ms
+2020-07-07 17:06:34.952 [Thread:restartedMain] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-07 17:06:35.027 [Thread:cluster-ClusterId{value='5f043b1a872fd367c8508707', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Opened connection [connectionId{localValue:1, serverValue:1}] to 127.0.0.1:27017
+2020-07-07 17:06:35.034 [Thread:cluster-ClusterId{value='5f043b1a872fd367c8508707', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4686900}
+2020-07-07 17:06:35.458 [Thread:restartedMain] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'task': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-07-07 17:06:35.465 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-07-07 17:06:35.478 [Thread:restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-07 17:06:35.718 [Thread:restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field restTemplate in com.weavernorth.datadeal.toread.manage.task.Task required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2020-07-07 17:09:14.402 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 17420 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 17:09:14.413 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 17:09:14.496 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 17:09:14.497 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 17:09:15.382 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 17:09:15.424 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 37ms. Found 0 MongoDB repository interfaces.
+2020-07-07 17:09:16.099 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 17:09:16.110 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:09:16.111 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 17:09:16.111 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 17:09:16.306 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 17:09:16.306 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1809 ms
+2020-07-07 17:09:16.480 [Thread:restartedMain] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-07 17:09:16.543 [Thread:cluster-ClusterId{value='5f043bbc6ae87d0472b03f4e', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Opened connection [connectionId{localValue:1, serverValue:2}] to 127.0.0.1:27017
+2020-07-07 17:09:16.550 [Thread:cluster-ClusterId{value='5f043bbc6ae87d0472b03f4e', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4388700}
+2020-07-07 17:09:16.917 [Thread:restartedMain] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'task': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-07-07 17:09:16.924 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-07-07 17:09:16.937 [Thread:restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-07 17:09:17.156 [Thread:restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field restTemplate in com.weavernorth.datadeal.toread.manage.task.Task required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2020-07-07 17:11:15.890 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 2664 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 17:11:15.899 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 17:11:15.967 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 17:11:15.967 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 17:11:16.896 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 17:11:16.936 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 33ms. Found 0 MongoDB repository interfaces.
+2020-07-07 17:11:17.598 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 17:11:17.608 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:11:17.608 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 17:11:17.609 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 17:11:17.774 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 17:11:17.775 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1807 ms
+2020-07-07 17:11:17.948 [Thread:restartedMain] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-07 17:11:18.013 [Thread:cluster-ClusterId{value='5f043c352ffca149a9085d2f', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Opened connection [connectionId{localValue:1, serverValue:3}] to 127.0.0.1:27017
+2020-07-07 17:11:18.019 [Thread:cluster-ClusterId{value='5f043c352ffca149a9085d2f', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4743000}
+2020-07-07 17:11:18.351 [Thread:restartedMain] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'task': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-07-07 17:11:18.358 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-07-07 17:11:18.368 [Thread:restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-07 17:11:18.548 [Thread:restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field restTemplate in com.weavernorth.datadeal.toread.manage.task.Task required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2020-07-07 17:16:16.391 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 1940 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 17:16:16.399 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 17:16:16.467 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 17:16:16.467 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 17:16:17.249 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 17:16:17.288 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 34ms. Found 0 MongoDB repository interfaces.
+2020-07-07 17:16:17.915 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 17:16:17.926 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:16:17.926 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 17:16:17.927 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 17:16:18.122 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 17:16:18.122 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1655 ms
+2020-07-07 17:16:18.289 [Thread:restartedMain] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-07 17:16:18.354 [Thread:cluster-ClusterId{value='5f043d621b847d09bd7a3053', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Opened connection [connectionId{localValue:1, serverValue:4}] to 127.0.0.1:27017
+2020-07-07 17:16:18.361 [Thread:cluster-ClusterId{value='5f043d621b847d09bd7a3053', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4760900}
+2020-07-07 17:16:18.812 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'taskExecutor'
+2020-07-07 17:16:19.223 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 17:16:19.298 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:16:19.324 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6869 (http) with context path ''
+2020-07-07 17:16:19.335 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadManageApplication in 3.275 seconds (JVM running for 5.039)
+2020-07-07 17:17:05.019 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 17224 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 17:17:05.034 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 17:17:05.108 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 17:17:05.108 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 17:17:06.280 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 17:17:06.335 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 47ms. Found 0 MongoDB repository interfaces.
+2020-07-07 17:17:07.399 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 17:17:07.421 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:17:07.422 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 17:17:07.422 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 17:17:07.742 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 17:17:07.742 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2633 ms
+2020-07-07 17:17:08.030 [Thread:restartedMain] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-07 17:17:08.145 [Thread:cluster-ClusterId{value='5f043d943ecd07531aa8a0f9', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Opened connection [connectionId{localValue:1, serverValue:5}] to 127.0.0.1:27017
+2020-07-07 17:17:08.154 [Thread:cluster-ClusterId{value='5f043d943ecd07531aa8a0f9', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6100000}
+2020-07-07 17:17:09.007 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'taskExecutor'
+2020-07-07 17:17:09.981 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 17:17:10.350 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:17:10.449 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6869 (http) with context path ''
+2020-07-07 17:17:10.475 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadManageApplication in 6.13 seconds (JVM running for 9.712)
+2020-07-07 17:19:14.503 [Thread:SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'taskExecutor'
+2020-07-07 17:19:41.611 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 16536 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 17:19:41.620 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 17:19:41.674 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 17:19:41.674 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 17:19:42.941 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 17:19:42.993 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 46ms. Found 0 MongoDB repository interfaces.
+2020-07-07 17:19:43.922 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 17:19:43.941 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:19:43.941 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 17:19:43.942 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 17:19:44.205 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 17:19:44.206 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2532 ms
+2020-07-07 17:19:44.560 [Thread:restartedMain] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'exceptionMqListen': Unsatisfied dependency expressed through field 'task'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'task' is expected to be of type 'com.weavernorth.datadeal.toread.manage.task.Task' but was actually of type 'com.sun.proxy.$Proxy82'
+2020-07-07 17:19:44.565 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-07-07 17:19:44.580 [Thread:restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-07 17:19:44.585 [Thread:restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'task' could not be injected as a 'com.weavernorth.datadeal.toread.manage.task.Task' because it is a JDK dynamic proxy that implements:
+	org.springframework.amqp.rabbit.core.RabbitTemplate$ConfirmCallback
+
+
+Action:
+
+Consider injecting the bean as one of its interfaces or forcing the use of CGLib-based proxies by setting proxyTargetClass=true on @EnableAsync and/or @EnableCaching.
+
+2020-07-07 17:31:30.794 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting DatadealToreadManageApplication on LAPTOP-R2J4TBE9 with PID 14456 (D:\work\ideaworkspaces\personal\UntifyRequestDataDeal\datadeal_toread_manage\target\classes started by 12031 in D:\work\ideaworkspaces\personal\UntifyRequestDataDeal)
+2020-07-07 17:31:30.814 [Thread:restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-07-07 17:31:30.988 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-07 17:31:30.989 [Thread:restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-07 17:31:32.736 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-07 17:31:32.814 [Thread:restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 68ms. Found 0 MongoDB repository interfaces.
+2020-07-07 17:31:34.352 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 6869 (http)
+2020-07-07 17:31:34.378 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:31:34.380 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-07-07 17:31:34.381 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 17:31:34.846 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-07-07 17:31:34.846 [Thread:restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 3857 ms
+2020-07-07 17:31:35.556 [Thread:restartedMain] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-07 17:31:35.860 [Thread:cluster-ClusterId{value='5f0440f71225c7064fe4d1a8', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Opened connection [connectionId{localValue:1, serverValue:9}] to 127.0.0.1:27017
+2020-07-07 17:31:35.873 [Thread:cluster-ClusterId{value='5f0440f71225c7064fe4d1a8', description='null'}-127.0.0.1:27017] INFO  com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71) - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8883201}
+2020-07-07 17:31:36.306 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'taskExecutor'
+2020-07-07 17:31:36.953 [Thread:restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'taskScheduler'
+2020-07-07 17:31:37.071 [Thread:restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-07-07 17:31:37.281 [Thread:restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-6869"]
+2020-07-07 17:31:37.334 [Thread:restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 6869 (http) with context path ''
+2020-07-07 17:31:37.339 [Thread:restartedMain] INFO  org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectHostPort(AbstractConnectionFactory.java:566) - Attempting to connect to: 127.0.0.1:5672
+2020-07-07 17:31:37.418 [Thread:restartedMain] INFO  org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:511) - Created new connection: connectionFactory#2b226e2:0/SimpleConnection@292e7ca7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53236]
+2020-07-07 17:31:37.671 [Thread:restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started DatadealToreadManageApplication in 7.664 seconds (JVM running for 12.543)
+2020-07-07 17:31:37.671 [Thread:org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  com.weavernorth.datadeal.toread.manage.listener.RequetMsgMqListen.receiveToReadRequestByMap(RequetMsgMqListen.java:47) - 第2步，调用MongoDB接口处理数据。receiveTodoRequestByMap 处理完毕！耗时：8 ms
+2020-07-07 17:31:37.673 [Thread:org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  com.weavernorth.datadeal.toread.manage.listener.RequetMsgMqListen.receiveToReadRequestByMap(RequetMsgMqListen.java:47) - 第2步，调用MongoDB接口处理数据。receiveTodoRequestByMap 处理完毕！耗时：0 ms
+2020-07-07 17:31:37.675 [Thread:org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  com.weavernorth.datadeal.toread.manage.listener.RequetMsgMqListen.receiveToReadRequestByMap(RequetMsgMqListen.java:47) - 第2步，调用MongoDB接口处理数据。receiveTodoRequestByMap 处理完毕！耗时：1 ms
+2020-07-07 17:31:37.683 [Thread:taskExecutor-1] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:71) - 开始处理-接收列表-任务
+2020-07-07 17:31:37.683 [Thread:taskExecutor-2] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:71) - 开始处理-接收列表-任务
+2020-07-07 17:31:37.683 [Thread:taskExecutor-1] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:73) - 请求参数:{syscode=CHNTOA, flowid=qweqwezdsfasdfs, requestname=测试流程名称, workflowname=测试流程类型名称, nodename=测试节点名称, pcurl=pcurl.com.cn, appurl=appurl.com.cn, creator=xiaoming, createdatetime=2020-08-01 22:00:00, receiver=xiaohong, receivedatetime=2020-08-01 22:00:00, times=0}
+2020-07-07 17:31:37.683 [Thread:taskExecutor-3] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:71) - 开始处理-接收列表-任务
+2020-07-07 17:31:37.684 [Thread:taskExecutor-2] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:73) - 请求参数:{syscode=CHNTOA, flowid=qweqwezdsfasdfs, requestname=测试流程名称, workflowname=测试流程类型名称, nodename=测试节点名称, pcurl=pcurl.com.cn, appurl=appurl.com.cn, creator=xiaoming, createdatetime=2020-08-01 22:00:00, receiver=xiaohong, receivedatetime=2020-08-01 22:00:00, times=0}
+2020-07-07 17:31:37.684 [Thread:taskExecutor-3] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:73) - 请求参数:{syscode=CHNTOA, flowid=qweqwezdsfasdfs, requestname=测试流程名称, workflowname=测试流程类型名称, nodename=测试节点名称, pcurl=pcurl.com.cn, appurl=appurl.com.cn, creator=xiaoming, createdatetime=2020-08-01 22:00:00, receiver=xiaohong, receivedatetime=2020-08-01 22:00:00, times=0}
+2020-07-07 17:31:37.748 [Thread:taskExecutor-3] ERROR com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:105) - 接口异常,returnArr为空,请检查接口方法和OA接口是否正常!
+2020-07-07 17:31:37.748 [Thread:taskExecutor-2] ERROR com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:105) - 接口异常,returnArr为空,请检查接口方法和OA接口是否正常!
+2020-07-07 17:31:37.748 [Thread:taskExecutor-1] ERROR com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:105) - 接口异常,returnArr为空,请检查接口方法和OA接口是否正常!
+2020-07-07 17:31:37.749 [Thread:taskExecutor-3] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:126) - 完成-接收列表-任务，耗时：65毫秒
+2020-07-07 17:31:37.749 [Thread:taskExecutor-2] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:126) - 完成-接收列表-任务，耗时：65毫秒
+2020-07-07 17:31:37.749 [Thread:taskExecutor-1] INFO  com.weavernorth.datadeal.toread.manage.task.Task.receiveToReadRequestByMap(Task.java:126) - 完成-接收列表-任务，耗时：66毫秒
